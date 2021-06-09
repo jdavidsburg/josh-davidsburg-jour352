@@ -1,3 +1,6 @@
+/* Styles for my resume */
+
+/* default style for body */
 body{
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
@@ -5,13 +8,14 @@ body{
   font-weight: 400;
 }
 
+/* Name Styling */
 h1{
   font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
 }
-
+/* Title styling */
 .title{
   text-transform: uppercase;
   text-align: center;
