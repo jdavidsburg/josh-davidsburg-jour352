@@ -38,16 +38,17 @@ body{
 }
 
 /* Job title styling */
-h3 {
+/*switched from h3 to div */
+.jobtitle {
   font-weight: 600;
   font-size: 1.5em;
 }
 
 
 /* Job organization titling */
-h4 {
+.organization {
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1.25em;
 }
 
 /* Job dates styling */
@@ -62,6 +63,7 @@ ul {
   font-size: 1em;
 }
 
+/* container div */
 #container{
   width: 100%;
   max-width: 1200px;
