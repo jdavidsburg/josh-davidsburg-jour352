@@ -22,6 +22,9 @@ body{
 /* Title styling */
 .title{
   text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
 }
 
 
@@ -64,10 +67,10 @@ ul {
   font-size: 1em;
 }
 
-}
 /*styling for paragraphs */
 .description{
-  margin-top: 10px 0 10px 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 
@@ -76,3 +79,27 @@ ul {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+/*menu styling*/
+.menu{
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*display menu inline */
+.menu-items{
+  display: inline;
+}
+
+/*degrees-specific styling*/
+#degrees{
+  margin-top: 5px;
+}
+
+/*skills-specific styling */
+#do {
+  margin-top: 5px;
+}
