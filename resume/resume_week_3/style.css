@@ -52,10 +52,11 @@ body{
 }
 
 /* Job dates styling */
-h5{
+.date{
   font-weight: 400;
   font-style: italic;
   font-size: 1em;
+  margin-top: 2px;
 }
 
 /* Contact Info, Skills, Education styling */
@@ -63,10 +64,15 @@ ul {
   font-size: 1em;
 }
 
+}
+/*styling for paragraphs */
+.description{
+  margin-top: 10px 0 10px 0;
+}
+
+
 /* container div */
 #container{
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-
-}
