@@ -9,8 +9,10 @@ size: 1em;
 }
 
 #hero-video{
-  width: 100%;
+  heigh: 100vw;
   opacity: .5;
+  justify-content: center;
+
 }
 
 /* @media screen and (max-width:1920px){
@@ -25,6 +27,8 @@ size: 1em;
   background-color: grey;
   opacity: 50%
   position: absolute;
+  display: flex;
+  justify-content:center;
 }
 
 .hero-text{
@@ -142,6 +146,8 @@ margin-top: 75px;
   color: #130AFC;
   text-transform: uppercase;
 }
+#substack-signup{
+}
 
 /*footer*/
 #footer{
@@ -168,4 +174,28 @@ margin-top: 75px;
   position: absolute;
   top: 15px;
   left: 20px;
+}
+
+/* social icons footer */
+.social-icons-bottom{
+  width: 30px;
+  display: inline-block;
+}
+
+#social-icon-footer{
+  position: absolute;
+  right: 20px;
+  margin-top: 15px;
+}
+
+@media screen and (max-width:600px){
+  .footer-text{
+    display: none;
+
+}
+  #social-icon-footer{
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    background-color: #130AFC;
+  }
 }
