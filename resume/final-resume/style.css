@@ -12,7 +12,6 @@ size: 1em;
   width: 100%;
   opacity: .5;
   justify-content: center;
-  overflow: hidden;
 
 }
 
@@ -55,7 +54,7 @@ size: 1em;
 
 .title{
   font-family: 'Anton', sans-serif;
-  font-size: 2vw;
+  font-size: 3vw;
   text-transform: uppercase;
   color: white;
   -webkit-text-stroke: black 1px;
@@ -151,7 +150,8 @@ margin-top: 75px;
   color: #130AFC;
   text-transform: uppercase;
 }
-
+#substack-signup{
+}
 
 /*footer*/
 #footer{
