@@ -1,13 +1,16 @@
 h1{
   font-family: 'Anton', sans-serif;
+  font-size: 4vw;
 }
 
 p{
 font-family: 'PT Serif', serif;
+size: 1em;
 }
 
 #hero-video{
   width: 100%;
+  opacity: .5;
 }
 
 /* @media screen and (max-width:1920px){
@@ -16,3 +19,147 @@ font-family: 'PT Serif', serif;
     margin-left: auto;
     margin-right: 0 auto;
 } */
+
+
+#video-cover{
+  background-color: grey;
+  opacity: 50%
+  position: absolute;
+}
+
+.hero-text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  background-color: #130AFC;
+  padding: 20px 10px 20px 10px;
+}
+
+#name{
+  letter-spacing: 10px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title{
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  color: white;
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 30px;
+}
+
+.line{
+    margin: 0 auto;
+    width:80%;
+    height: 3px;
+    background: white;
+    margin-bottom: 15px;
+}
+
+.section-head{
+  font-family: 'Anton', sans-serif;
+  font-size: 3em;
+  color: #130AFC;
+  text-transform: uppercase;
+  padding-top: 50px;
+
+}
+
+.camera-photo{
+  width: 100%;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+#about-me{
+  padding-top: 40px;
+
+}
+
+#skills{
+  text-align: center;
+}
+
+/*Experience */
+.jobtitle {
+  font-family: 'PT Serif', serif;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+
+/* Job organization titling */
+.organization {
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+/* Job dates styling */
+.date{
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1em;
+  margin-top: 2px;
+}
+
+/* skills */
+#do {
+  font-family: 'PT Serif', serif;
+  list-style-type: none;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+#experience{
+  height: 300px;
+}
+
+/*substack info */
+#substack{
+border: 2px solid; black;
+margin-top: 75px;
+}
+
+.section-head-substack{
+  font-family: 'Anton', sans-serif;
+  font-size: 3em;
+  color: #130AFC;
+  text-transform: uppercase;
+}
+
+/*footer*/
+#footer{
+  background-color: #130AFC;
+  margin-top: 100px;
+}
+
+.footer-text {
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*social icons top */
+.social-icons-top{
+  width: 50px;
+  display: inline-block;
+}
+
+#social-icon-group{
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
