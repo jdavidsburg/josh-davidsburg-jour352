@@ -1,6 +1,6 @@
 h1{
   font-family: 'Anton', sans-serif;
-  font-size: 4vw;
+  font-size: 5vw;
 }
 
 p{
@@ -54,7 +54,7 @@ size: 1em;
 
 .title{
   font-family: 'Anton', sans-serif;
-  font-size: 1.5vw;
+  font-size: 2vw;
   text-transform: uppercase;
   color: white;
   -webkit-text-stroke: black 1px;
