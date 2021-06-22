@@ -12,6 +12,7 @@ size: 1em;
   width: 100%;
   opacity: .5;
   justify-content: center;
+  overflow: hidden;
 
 }
 
@@ -150,8 +151,7 @@ margin-top: 75px;
   color: #130AFC;
   text-transform: uppercase;
 }
-#substack-signup{
-}
+
 
 /*footer*/
 #footer{
