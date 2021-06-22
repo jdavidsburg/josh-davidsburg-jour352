@@ -191,11 +191,5 @@ margin-top: 75px;
 @media screen and (max-width:600px){
   .footer-text{
     display: none;
-
-}
-  #social-icon-footer{
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    background-color: #130AFC;
   }
 }
