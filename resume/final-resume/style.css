@@ -9,18 +9,20 @@ size: 1em;
 }
 
 #hero-video{
-  heigh: 100vw;
+  width: 100%;
   opacity: .5;
   justify-content: center;
 
 }
 
-/* @media screen and (max-width:1920px){
+ @media screen and (max-width:1920px){
   #hero-video{
     width: 1920px;
     margin-left: auto;
     margin-right: 0 auto;
-} */
+    display: flex;
+    justify-content:center;
+}
 
 
 #video-cover{
