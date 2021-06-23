@@ -12,6 +12,11 @@ size: 1em;
   display: block;
   opacity: .5;
   overflow-x: hidden;
+  display: block;
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
 }
 
  /*@media screen and (max-width:1920px){
@@ -195,4 +200,8 @@ margin-top: 75px;
   .footer-text{
     display: none;
   }
+}
+
+body{
+  overflow-x: hidden;
 }
