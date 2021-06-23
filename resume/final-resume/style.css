@@ -155,6 +155,11 @@ margin-top: 75px;
   text-transform: uppercase;
 }
 #substack-signup{
+   width:480;
+   height:320;
+   background:white;
+   frameborder:0;
+   scrolling: no;
 }
 
 /*footer*/
