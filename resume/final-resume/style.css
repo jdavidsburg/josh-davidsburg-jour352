@@ -44,7 +44,6 @@ size: 1em;
   left: 50%;
   transform: translate(-50%, -50%);
   width: auto;
-
   padding: 20px 10px 20px 10px;
 }
 
@@ -131,15 +130,12 @@ size: 1em;
 }
 
 /* skills */
-#do {
+li {
   font-family: 'PT Serif', serif;
   list-style-type: none;
   margin-top: 5px;
   margin-left: 20px;
-}
-
-#experience{
-  height: 300px;
+  display: inline block;
 }
 
 /*substack info */
@@ -168,7 +164,7 @@ margin-top: 75px;
   margin-top: 100px;
 }
 
-.footer-text {
+#footer-text {
   font-size: 1em;
   text-align: center;
   font-family: 'Anton', sans-serif;
@@ -202,7 +198,7 @@ margin-top: 75px;
 }
 
 @media screen and (max-width:600px){
-  .footer-text{
+  #footer-text{
     display: none;
   }
 
