@@ -135,7 +135,7 @@ li {
   list-style-type: none;
   margin-top: 5px;
   margin-left: 20px;
-  display: inline block;
+  display:inline-table;
 }
 
 /*substack info */
@@ -191,7 +191,7 @@ margin-top: 75px;
   display: inline-block;
 }
 
-#social-icon-footer{
+#social-icons-footer{
   position: absolute;
   right: 20px;
   margin-top: 15px;
