@@ -1,19 +1,21 @@
-#headline {
-  font-size: 3em;
-  font-weight: 700;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
+/* headline */
+h1{
+  font-family: 'Playfair Display', serif;
+  text-align: left;
+  font-size: 5em;
+  padding-top: 20px;
+  text-transform: capitalize;
 }
 
 #byline{
   font-size: 1em;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
+  font-family: 'PT Serif', serif;
+  text-align: left;
   text-transform: uppercase;
 }
-
+/* body text */
 p{
-  font-family: Georgia, serif;
+  font-family: 'PT Serif', serif;
   line-height: 180%;
   font-size: 1em;
 }
@@ -21,10 +23,17 @@ p{
 .chapter-headline{
   font-size: 2em;
   font-weight: 600;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
+  text-transform: capitalize;
+
+
+}
+.drop-case{
+  font-size: 2em;
+  color: #f23030;
 }
 
-
+/*footer */
 #footer{
   background-color: black;
   margin-top: 100px;
@@ -125,6 +134,8 @@ p{
   text-align: left;
   color: black;
 }
+
+
 
 /* media queries */
 @media query (max-width:700px){
