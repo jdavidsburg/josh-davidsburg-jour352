@@ -7,11 +7,20 @@ h1{
   text-transform: capitalize;
 }
 
-#byline{
+.byline{
   font-size: 1em;
   font-family: 'PT Serif', serif;
   text-align: left;
   text-transform: uppercase;
+}
+
+.contrib{
+  font-size: 1em;
+  font-family: 'PT Serif', serif;
+  text-align: left;
+  text-transform:capitalize;
+  font-style: italic;
+  padding-top: 30px;
 }
 /* body text */
 p{
@@ -25,25 +34,22 @@ p{
   font-weight: 600;
   font-family: 'Playfair Display', serif;
   text-transform: capitalize;
+  color: #f23030;
 }
 /*opening graph */
 
 .drop-case{
-  font-size: 3em;
+  font-size: 2em;
   color: #f23030;
-  float: left;
-  padding-top: 0;
 
 }
 
 #opening-text{
   font-size: 2em;
-  width: 75%;
-  font-family: 'PT Serif', serif;
+  width:80%;
   margin: 0 auto;
-  margin-bottom: 50px;
-  margin-top: 50px;
-
+  font-family: 'PT Serif', serif;
+  padding-bottom: 30px;
 }
 
 /*footer */
@@ -60,14 +66,6 @@ p{
   padding-top: 10px;
   text-transform: uppercase;
 }
-
-@media screen and (max-width:1400px){
-  #main-photo{
-    width:100%
-  }
-}
-
-
 
 .caption {
   font-family: 'Montserrat', sans-serif;
@@ -127,8 +125,9 @@ p{
 
 .sub-head{
   font-family: 'Montserrat', sans-serif;
-  font-size: .25em
+  font-size: .25em;
 }
+
 /* quotes */
 .quote{
   color: #f23030;
@@ -174,5 +173,11 @@ p{
 @media query (max-width:700px){
   .hero-head{
     font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width:1400px){
+  #main-photo{
+    width:100%
   }
 }
