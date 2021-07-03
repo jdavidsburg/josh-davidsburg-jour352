@@ -51,11 +51,43 @@ size: 1em;
   .hero-text{
     width: 600px;
   }
+}
 
-  @media screen and (max-width:800px){
+@media screen and (max-width:800px){
     .hero-text{
       width: 400px;
     }
+  }
+    /*social icons top */
+    .social-icons-top{
+      width: 60px;
+      display: inline-block;
+    }
+
+    #social-icons-group{
+      position: absolute;
+      top: 15px;
+      left: 20px;
+    }
+
+    /* social icons footer */
+    .social-icons-bottom{
+      width: 30px;
+      display: inline-block;
+    }
+
+    #social-icons-footer{
+      position: absolute;
+      right: 20px;
+      margin-top: 15px;
+    }
+
+    @media screen and (max-width:600px){
+      #footer-text{
+        display: none;
+      }
+
+
 
 #about-section-head{
   font-family: 'Anton', sans-serif;
@@ -164,7 +196,7 @@ margin-top: 75px;
   display: inline-block;
 }
 
-#social-icon-group{
+#social-icons-group{
   position: absolute;
   top: 15px;
   left: 20px;
