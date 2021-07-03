@@ -3,7 +3,7 @@ h1{
 }
 
 p{
-font-family: 'PT Serif', serif;
+font-family: 'Playfair Display', serif;
 size: 1em;
 }
 /* hero video/headline */
@@ -28,6 +28,13 @@ size: 1em;
   width: 1000px;
   padding: 20px 10px 20px 10px;
   border: 4px solid yellow;
+}
+/* link */
+a{
+  color: black;
+}
+a:hover{
+  color:#f23030;
 }
 
 #headline{
@@ -86,108 +93,6 @@ size: 1em;
       #footer-text{
         display: none;
       }
-
-
-
-#about-section-head{
-  font-family: 'Anton', sans-serif;
-  font-size: 3em;
-  color: #130AFC;
-  text-transform: uppercase;
-  padding-top: 15px;
-}
-.section-head{
-  font-family: 'Anton', sans-serif;
-  font-size: 3em;
-  color: #130AFC;
-  text-transform: uppercase;
-  padding-top: 50px;
-
-}
-
-.camera-photo{
-  width: 100%;
-  padding-top: 25px;
-  padding-left: 25px;
-}
-
-#about-me{
-  padding-top: 40px;
-
-}
-
-#skills{
-  text-align: center;
-}
-
-/*Experience */
-.jobtitle {
-  font-family: 'PT Serif', serif;
-  font-weight: 600;
-  font-size: 1.5em;
-  margin-top: 20px
-}
-
-
-/* Job organization titling */
-.organization {
-  font-family: 'PT Serif', serif;
-  font-weight: 400;
-  font-size: 1.25em;
-}
-
-/* Job dates styling */
-.date{
-  font-family: 'PT Serif', serif;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 1em;
-  margin-top: 2px;
-}
-
-/* skills */
-li {
-  font-family: 'PT Serif', serif;
-  font-size: 1em;
-  list-style-type: none;
-  margin-top: 5px;
-  margin-left: 20px;
-  display:inline-table;
-}
-
-/*substack info */
-#substack{
-border: 2px solid black;
-margin-top: 75px;
-}
-
-.section-head-substack{
-  font-family: 'Anton', sans-serif;
-  font-size: 3em;
-  color: #130AFC;
-  text-transform: uppercase;
-}
-#substack-signup{
-   width:480;
-   height:320;
-   background:white;
-   frameborder:0;
-   scrolling: no;
-}
-
-/*footer*/
-#footer{
-  background-color: #130AFC;
-  margin-top: 100px;
-}
-
-#footer-text {
-  font-size: 1em;
-  text-align: center;
-  font-family: 'Anton', sans-serif;
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 /*social icons top */
@@ -214,10 +119,24 @@ margin-top: 75px;
   margin-top: 15px;
 }
 
+/*story squares */
+.story-box{
+  margin-top: 20px;
+}
+
+.story-head{
+  font-size: 2em;
+  font-weight: 700;
+  width: 100%;
+}
+
+
+
 @media screen and (max-width:600px){
   #footer-text{
     display: none;
   }
+
 
 
 body{
