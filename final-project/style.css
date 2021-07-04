@@ -107,6 +107,20 @@ a:hover{
   left: 20px;
 }
 
+/* series open */
+.series-open{
+  height: 100vh;
+}
+
+.series-head{
+  font-family: 'Playfair Display', serif;
+  font-size: 3vw;
+  font-weight: 500;
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 12vh;
+}
+
 /* social icons footer */
 .social-icons-bottom{
   width: 30px;
