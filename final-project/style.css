@@ -65,6 +65,7 @@ a:hover{
       width: 400px;
     }
   }
+
     /*social icons top */
     .social-icons-top{
       width: 60px;
@@ -147,14 +148,17 @@ a:hover{
 
 /*graphic */
 .graphic{
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
+
+/*hero image */
 .hero-image{
   width: 100%;
-  height: 100vh;
+  height: 100%;
   margin-top: 25vh;
 }
+
 
 .caption {
   font-family: 'Playfair Display', serif;
