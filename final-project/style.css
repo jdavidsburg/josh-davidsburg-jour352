@@ -111,16 +111,35 @@ a:hover{
 
 /* series open */
 .series-open{
-  height: 100vh;
+  height: 100%;
 }
 
 .series-head{
   font-family: 'Playfair Display', serif;
-  font-size: 3vw;
+  font-size: 3em;
   font-weight: 500;
   width: 75%;
   margin: 0 auto;
-  padding-top: 12vh;
+  padding-top: 15vh;
+  padding-bottom: 20vh;
+}
+
+@media screen and (max-width:1100px) {
+  .series-head{
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .series-head{
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .series-head{
+    font-size: 1em;
+  }
 }
 
 /* social icons footer */
